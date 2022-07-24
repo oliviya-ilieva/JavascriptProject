@@ -25,6 +25,12 @@
             const element = document.querySelector('footer')
             console.log(Array.from(element.getElementsByTagName('*'))); 
 
+
+            [].forEach.call(document.querySelectorAll('footer *'), function(x) {
+  console.log(x);
+});
+
+
              </script>
     </body>
 </html>
